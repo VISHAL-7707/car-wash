@@ -116,13 +116,13 @@ width: 30%;
 
 
 .btn1{
-    padding: 1px 15px;
+    padding: 2px 60px;
     margin: 7px 40px;
-    border: 2px solid rgb(116, 212, 38);
-    border-radius: 8px ;
-    font-size: 18px;
-    background:none ;
-    color: rgb(186, 243, 112);
+    /* border: 2px solid white; */
+    border-radius: 8px;
+    font-size: 32px;
+    background: none;
+    color: rgb(181 181 181);
     cursor: pointer;
        
 }
@@ -188,7 +188,7 @@ width: 30%;
       }
       .bell img{
         width: 303px ;
-        border: 2px solid black;
+        
         border-radius: 75px;
 
         
@@ -230,4 +230,106 @@ width: 30%;
           background: rgb(235, 188, 128);
          
 
+      }
+      .body-font{ 
+        background :rgba(12, 12, 12, 0.7) url('../assets/buy1.jpg');
+          background-color: rgb(236, 198, 150);
+         display: flex;
+          height: 76vh;
+      }
+      .imgfluid{
+       
+        padding-left:12px;  
+        -webkit-text-size-adjust: 50%;
+        
+    color: #0F1111;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    font-size: 3px!important;
+    line-height: 9px!important;
+    /* box-sizing: border-box; */
+    /* order: 2; */
+    height: 120px;
+    min-height: 183px;
+    flex: 1 0 290px;
+    /* padding-left: 10px; */
+    /* padding-right: 10px; */
+    min-width: 190px;
+    padding-top: 15px;
+   
+    border-radius: 5px;
+        
+      }
+      .imgfluidbig{
+          height: 255px;
+          
+          border-radius: 66px;
+      }
+      .title-fontt-gray-900{
+        font-family: 'Ubuntu', sans-serif;
+          font-size: x-large;
+          margin: 8px;
+      }
+      .inline--lg{
+        padding: 2px 60px;
+    margin: 7px 40px;
+    /* border: 2px solid white; */
+    border-radius: 8px;
+    font-size: 32px;
+    background: none;
+    color:  rgb(63, 61, 61);
+          cursor: pointer;
+        }
+
+      .text-full{
+        color: rgb(187, 10, 69);
+        margin: 87px;
+        font-size: 72px;
+        font-family: 'Dancing Script', cursive;
+        
+      }.mb-88{
+           font-family: 'Ubuntu', sans-serif;
+          margin: 3px;
+        padding-top: 3px;
+      }
+      .relative-mr-4{
+        padding-top: 22px;
+      }
+      .focusfout{
+          font-size: 19px;
+      }
+      .imgfluidb{
+        width: 250px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+      }
+      .text-body-font{
+        background :rgba(12, 12, 12, 0.7) url('../assets/buy2.jpg');
+      }
+      .coupon{
+        border: 5px dotted #bbb;
+        width: 80%;
+        border-radius: 15px;
+        margin: 0 auto;
+        max-width: 600px;
+      }
+      
+      .container {
+        padding: 2px 16px;
+        background-color: #f1f1f1;
+      }
+      
+      .promo {
+        background: #ccc;
+        padding: 3px;
+      }
+      
+      .expire {
+        color: red;
+      }
+      .tag{
+          background-color: rgb(190, 182, 159);
+      }
+      .shadow{
+        box-shadow: 0 73px 8px 0 rgb(0 0 0 / 20%), 0 54px 20px 0 rgb(0 0 0 / 19%);
+        
       }
